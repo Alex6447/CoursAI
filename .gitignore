@@ -8,3 +8,6 @@ __pycache__/
 *.log
 .DS_Store
 .pytest_cache/
+
+# Obsidian local UI state (volatile, per-machine)
+.obsidian/workspace.json
