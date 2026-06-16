@@ -1,0 +1,21 @@
+/* ==текст== */
+body mark,
+body .cm-highlight,
+body .cm-mark {
+  color: #FF0000 !important;
+  background-color: rgba(255, 0, 0, 0.2) !important;
+}
+
+/* __текст__ */
+body strong,
+body .cm-strong {
+  color: #00FF00 !important;
+  background-color: rgba(0, 255, 0, 0.2) !important;
+}
+
+/* _текст_ */
+body em,
+body .cm-em {
+  color: #FF8C00 !important;
+  background-color: rgba(255, 140, 0, 0.2) !important;
+}

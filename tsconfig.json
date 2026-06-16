@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@renderer/*": ["app/src/renderer/src/*"]
+    },
+    "types": ["node"]
+  },
+  "include": [
+    "app/src/main/**/*",
+    "app/src/preload/**/*",
+    "app/src/renderer/**/*",
+    "electron.vite.config.ts"
+  ]
+}

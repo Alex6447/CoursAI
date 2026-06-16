@@ -1,0 +1,5 @@
+/* Убирает зачеркивание текста у выполненных задач */
+li.task-list-item.is-checked > label {
+    text-decoration: none !important;
+    color: var(--text-normal) !important;
+}

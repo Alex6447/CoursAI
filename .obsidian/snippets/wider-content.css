@@ -1,0 +1,36 @@
+:root {
+  --file-line-width: 100% !important;
+}
+
+.markdown-source-view.mod-cm6.is-readable-line-width .cm-content,
+.markdown-source-view.mod-cm6 .cm-content {
+  max-width: 100% !important;
+}
+
+.markdown-preview-view,
+.markdown-preview-view .markdown-preview-sizer {
+  max-width: 100% !important;
+}
+
+.cm-sizer {
+  max-width: 100% !important;
+}
+
+/* Таблицы — на всю ширину документа */
+.markdown-rendered table,
+.markdown-source-view table,
+.cm-table-widget table {
+  width: 100% !important;
+}
+
+/* Mermaid-диаграммы — естественный размер, но не шире окна */
+.markdown-rendered .mermaid,
+.markdown-source-view .mermaid {
+  text-align: center;
+}
+
+.markdown-rendered .mermaid svg,
+.markdown-source-view .mermaid svg {
+  max-width: 100% !important;
+  height: auto !important;
+}

@@ -1,0 +1,9 @@
+/* Таблица - цветной фон шапки */
+thead th {
+  background-color: #556B2F !important;
+  color: white !important;
+}
+
+.theme-dark thead th {
+  background-color: rgba(0, 255, 0, 0.1) !important;
+}

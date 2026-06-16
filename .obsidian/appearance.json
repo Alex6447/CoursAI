@@ -1,0 +1,9 @@
+{
+  "enabledCssSnippets": [
+    "no-strike-completed-tasks",
+    "no-strikethrough",
+    "table-header-color",
+    "text-highlight-colors",
+    "wider-content"
+  ]
+}
